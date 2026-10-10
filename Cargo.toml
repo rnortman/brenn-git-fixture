@@ -1,0 +1,18 @@
+[package]
+name = "brenn-git-fixture"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.95"
+description = "Hermetic git spawning for test fixtures, with a repo-escape canary"
+license = "Apache-2.0"
+repository = "https://github.com/rnortman/brenn-git-fixture"
+readme = "README.md"
+keywords = ["git", "testing", "fixture", "hermetic"]
+categories = ["development-tools::testing"]
+include = ["/src", "/README.md", "/CHANGELOG.md", "/LICENSE", "/NOTICE"]
+
+[lib]
+name = "brenn_git_fixture"
+
+[dependencies]
+tempfile = "3"

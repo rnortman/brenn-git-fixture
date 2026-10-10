@@ -1,0 +1,6 @@
+/target
+# A library: consumers resolve their own dependency graph.
+Cargo.lock
+.gitleaks.local.toml
+CLAUDE.local.md
+.claude/settings.local.json
